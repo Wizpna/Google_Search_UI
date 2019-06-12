@@ -3,7 +3,7 @@ Google search UI built with flutter web
 
 Screenshot below:
 
-<img src="https://github.com/Wizpna/Google_Search/blob/master/screenshot/flutter%20Google.png"  title="flutter_web_example">
+<img src="https://github.com/Wizpna/Google_Search/blob/master/screenshot/flutter%20Google.png"  title="Google_Search">
 
 Contact - Let's become friends
 
