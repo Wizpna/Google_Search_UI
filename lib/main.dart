@@ -1,8 +1,5 @@
 import 'package:flutter_web/material.dart';
-import 'package:second_website/footer.dart';
-import 'package:second_website/helpers/constants.dart';
-import 'package:second_website/menu-options.dart';
-import 'package:second_website/search-option.dart';
+import 'package:second_website/homePage.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,12 +14,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.black,
       ),
-      title: googleTitle,
+      title: 'Google',
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
+/*class MyHomePage extends StatefulWidget {
   MyHomePage({Key key}) : super(key: key);
 
   @override
@@ -63,4 +60,4 @@ class _MyHomePageState extends State<MyHomePage> {
       ],
     );
   }
-}
+}*/
