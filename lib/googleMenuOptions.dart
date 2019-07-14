@@ -11,13 +11,18 @@ class GoogleMenuOptions extends StatelessWidget {
           children: <Widget>[
             Text(
               "Gmail",
-              style: new TextStyle(fontSize: 16, fontWeight: FontWeight.w300),
+              style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.w300,
+                  fontFamily: 'arial'),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text("Images",
-                  style:
-                      new TextStyle(fontSize: 16, fontWeight: FontWeight.w300)),
+                  style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w300,
+                      fontFamily: 'arial')),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -34,11 +39,12 @@ class GoogleMenuOptions extends StatelessWidget {
                 elevation: 0.0,
                 color: Colors.blueAccent,
                 onPressed: () {},
-                child: new Text(
+                child: Text(
                   'Sign in',
-                  style: new TextStyle(
+                  style: TextStyle(
+                      fontFamily: 'arial',
                       color: Colors.white,
-                      fontSize: 16,
+                      fontSize: 15,
                       fontWeight: FontWeight.w500),
                 ),
               ),

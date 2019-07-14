@@ -19,3 +19,45 @@ class MyApp extends StatelessWidget {
   }
 }
 
+/*class MyHomePage extends StatefulWidget {
+  MyHomePage({Key key}) : super(key: key);
+
+  @override
+  _MyHomePageState createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  //Begin....
+
+  @override
+  Widget build(BuildContext context) {
+    //Implement scaffold...
+
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: _baseBody(),
+    );
+  }
+
+  //Foundation widget......
+  Widget _baseBody() {
+    //Creates the base....
+
+    return Column(
+      children: [
+        Flexible(
+          flex: 1,
+          child: GoogleMenuOptions(),
+        ),
+        Flexible(
+          flex: 8,
+          child: GoogleSearch(),
+        ),
+        Flexible(
+          flex: 1,
+          child: FooterOptions(),
+        ),
+      ],
+    );
+  }
+}*/

@@ -20,7 +20,7 @@ class GoogleSearch extends StatelessWidget {
             ),
             Flexible(
               child: Container(
-                width: 600,
+                width: 500,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(24.0),
@@ -33,14 +33,17 @@ class GoogleSearch extends StatelessWidget {
                     )
                   ],
                 ),
-                child: TextField(
-                  cursorColor: Theme.of(context).primaryColor,
-                  decoration: InputDecoration(
-                    border: InputBorder.none,
-                    contentPadding: const EdgeInsets.symmetric(
-                        horizontal: 12.0, vertical: 13.0),
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 8.0),
+                  child: TextField(
+                    cursorColor: Theme.of(context).primaryColor,
+                    decoration: InputDecoration(
+                      border: InputBorder.none,
+                      contentPadding: const EdgeInsets.symmetric(
+                          horizontal: 12.0, vertical: 13.0),
+                    ),
+                    maxLines: 1,
                   ),
-                  maxLines: 1,
                 ),
               ),
             ),
@@ -57,12 +60,12 @@ class GoogleSearch extends StatelessWidget {
                     elevation: 0.0,
                     color: Colors.black38.withOpacity(0.1),
                     onPressed: () {},
-                    child: new Text(
+                    child: Text(
                       "Google Search",
-                      style: new TextStyle(
+                      style: TextStyle(
                           fontSize: 15.0,
                           color: Colors.black54,
-                          fontFamily: 'Roboto-Light.ttf'),
+                          fontFamily: 'arial'),
                     ),
                   ),
                 ),
@@ -72,13 +75,13 @@ class GoogleSearch extends StatelessWidget {
                     elevation: 0.0,
                     color: Colors.black26.withOpacity(0.1),
                     onPressed: () {},
-                    child: new Text(
+                    child: Text(
                       "I'm Feeling Lucky",
-                      style: new TextStyle(
+                      style: TextStyle(
                           fontWeight: FontWeight.w200,
                           fontSize: 15.0,
                           color: Colors.black54,
-                          fontFamily: 'Roboto-Light.ttf'),
+                          fontFamily: 'arial'),
                     ),
                   ),
                 )
@@ -91,18 +94,18 @@ class GoogleSearch extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(top: 20.0),
                   child: Text("Google offered in:",
-                      style: new TextStyle(
+                      style: TextStyle(
                           color: Colors.black,
                           fontSize: 13.0,
-                          fontFamily: 'Roboto-Light.ttf')),
+                          fontFamily: 'arial')),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 8.0, top: 20.0),
                   child: Text("Hausa",
-                      style: new TextStyle(
+                      style: TextStyle(
                           color: Colors.indigo,
                           fontSize: 15.0,
-                          fontFamily: 'Roboto-Light.ttf')),
+                          fontFamily: 'arial')),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(
@@ -110,27 +113,27 @@ class GoogleSearch extends StatelessWidget {
                     top: 20.0,
                   ),
                   child: Text("Igbo",
-                      style: new TextStyle(
+                      style: TextStyle(
                           color: Colors.indigo,
                           fontSize: 15.0,
-                          fontFamily: 'Roboto-Light.ttf')),
+                          fontFamily: 'arial')),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 8.0, top: 20.0),
                   child: Text("Èdè Yorùbá",
-                      style: new TextStyle(
+                      style: TextStyle(
                           color: Colors.indigo,
                           fontSize: 15.0,
-                          fontFamily: 'Roboto-Light.ttf')),
+                          fontFamily: 'arial')),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 8.0, top: 20.0),
                   child: Text(
                     "Nigerian Pidgin",
-                    style: new TextStyle(
+                    style: TextStyle(
                         color: Colors.indigo,
                         fontSize: 15.0,
-                        fontFamily: 'Roboto-Light.ttf'),
+                        fontFamily: 'arial'),
                   ),
                 ),
               ],
