@@ -1,5 +1,4 @@
 import 'package:flutter_web/material.dart';
-
 class FooterOptions extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
